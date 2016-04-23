@@ -1,0 +1,3 @@
+= HackerRank
+
+Solutions for different puzzles from https://www.hackerrank.com/feed[HackerRank]
