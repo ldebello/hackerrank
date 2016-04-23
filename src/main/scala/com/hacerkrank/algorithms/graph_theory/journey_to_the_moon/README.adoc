@@ -16,17 +16,23 @@ and A and B are astronauts from the same country.
 Output Format
 An integer that denotes the number of permissible ways to choose a pair of astronauts.
 
-Constraints
-1<=N<=105
-1<=I<=104
+|===
+|Constraints
+|1<=N<=105
+|1<=I<=104
+|===
 
-Sample Input
+|===
+|Sample Input
+|4 2
+|0 1
+|2 3
+|===
 
-4 2
-0 1
-2 3
-Sample Output
+|===
+|Sample Output
+|4
+|===
 
-4
 Explanation
 Persons numbered 0 and 1 belong to same country, and those numbered 2 and 3 belong to same country. So the UN can choose one person out of 0 & 1 and another person out of 2 & 3. So number of ways of choosing a pair of astronauts is 4.
