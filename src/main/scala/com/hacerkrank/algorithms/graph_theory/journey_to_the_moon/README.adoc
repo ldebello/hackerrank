@@ -37,5 +37,5 @@ An integer that denotes the number of permissible ways to choose a pair of astro
 Explanation
 Persons numbered 0 and 1 belong to same country, and those numbered 2 and 3 belong to same country. So the UN can choose one person out of 0 & 1 and another person out of 2 & 3. So number of ways of choosing a pair of astronauts is 4.
 
-Notes:
+*Notes:*
 The members which are not named in the input are considered singleton groups of 1 element
