@@ -29,7 +29,6 @@ object Solution {
         var currentSum = values(lastIndex).toLong
         var isSumPossible = false
 
-        // After checking that the sum is possible we could break the for but I am too lazy to do it
         for (valueIndex <- lastIndex - 1 to 0 by -1) {
           previousCurrentSum = currentSum
           currentSum = previousCurrentSum + values(valueIndex).toLong

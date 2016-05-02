@@ -24,7 +24,6 @@ object SolutionV2 {
         var isSumPossible = false
         var partialSum = 0L
 
-        // After checking that the sum is possible we could break the for but I am too lazy to do it
         for (valueIndex <- 0 until values.length) {
           val value = values(valueIndex).toLong
           if (sum - partialSum - value == partialSum) {
