@@ -1,4 +1,4 @@
-package com.hacerkrank.algorithms.com.hacerkrank.algorithms.dynamic_programming.the_maximum_subarray
+package com.hacerkrank.algorithms.dynamic_programming.the_maximum_subarray
 
 object Solution {
 
