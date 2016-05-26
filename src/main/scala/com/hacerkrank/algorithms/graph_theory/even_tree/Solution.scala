@@ -1,4 +1,4 @@
-package com.hacerkrank.algorithms.graph_theory_even_tree
+package com.hacerkrank.algorithms.graph_theory.even_tree
 
 import scala.collection.mutable
 
