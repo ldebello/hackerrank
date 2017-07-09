@@ -1,6 +1,8 @@
 = Two Operations
 
-You are given only two operations, +1 and * 2 . You start from 0 and using the two operations reach a number N.
+You are given only two operations, +1 and * 2.
+
+You start from 0 and using the two operations reach a number N.
 Find the least number of operations needed to do this.
 
 == Input Format:
