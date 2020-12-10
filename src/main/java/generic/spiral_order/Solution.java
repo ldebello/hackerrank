@@ -11,11 +11,10 @@ public class Solution {
 
         int numberOfLevels = (int) Math.ceil(Math.min(matrix.length, matrix[0].length) / 2d);
 
-//        for (int i = 0; i < numberOfLevels; i++) {
-//            iterate(matrix, i, result::add);
-//        }
+        for (int i = 0; i < numberOfLevels; i++) {
+            iterate(matrix, i, result::add);
+        }
 
-        iterate(matrix, 1, result::add);
         return result;
     }
 
@@ -35,7 +34,7 @@ public class Solution {
     }
 
     private static void upToDown(int[][] matrix, int level, Consumer<Integer> consumer) {
-        int lastColumnPerLevel = matrix[level].length - 1;
+        int lastColumnPerLevel = matrix[level].length - level - 1;
 
         for (int row = level + 1; row < matrix.length - level; row++) {
             consumer.accept(matrix[row][lastColumnPerLevel]);

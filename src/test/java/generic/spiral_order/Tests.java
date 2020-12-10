@@ -117,7 +117,6 @@ public class Tests {
     }
 
     @Test
-    @Disabled
     public void oddNumberOfRowsEvenNumberOfColumns() {
         int[][] matrix = new int[5][4];
 
