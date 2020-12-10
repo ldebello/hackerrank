@@ -1,3 +1,5 @@
 = Programming Puzzles
 
-Solutions for different puzzles from https://www.hackerrank.com/feed[HackerRank], https://projecteuler.net/[Project Euler]
+Solutions for different puzzles from https://www.hackerrank.com/feed[HackerRank], https://projecteuler.net/[Project Euler].
+
+You can find some solutions in https://github.com/ldebello/puzzles/tree/scala[Scala].
