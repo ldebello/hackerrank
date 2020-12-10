@@ -9,12 +9,13 @@ public class Solution {
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
 
-        int middle = (int) Math.ceil(matrix.length / 2d);
+        int numberOfLevels = (int) Math.ceil(Math.min(matrix.length, matrix[0].length) / 2d);
 
-        for (int i = 0; i < middle; i++) {
-            iterate(matrix, i, result::add);
-        }
+//        for (int i = 0; i < numberOfLevels; i++) {
+//            iterate(matrix, i, result::add);
+//        }
 
+        iterate(matrix, 1, result::add);
         return result;
     }
 
