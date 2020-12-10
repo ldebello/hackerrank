@@ -26,6 +26,15 @@ public class Tests {
     }
 
     @Test
+    public void singleElement() {
+        int[][] matrix = new int[1][1];
+
+        matrix[0][0] = 1;
+
+        System.out.println(spiralOrder(matrix));
+    }
+
+    @Test
     public void multipleRowsSingleColumn() {
         int[][] matrix = new int[3][1];
 
